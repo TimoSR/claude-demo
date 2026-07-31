@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "start": "npm run dev"
   },
   "dependencies": {
     "svelte": "^3.59.2"
@@ -14,6 +15,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "rollup": "^2.79.2",
     "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-serve": "^2.0.3",
     "rollup-plugin-svelte": "^7.2.2"
   }
 }
